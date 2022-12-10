@@ -56,4 +56,8 @@ public class BasePage{
 		driver.get(url);
 	}
 	
+	public void metodoEjemplo() {
+		
+	}
+	
 }
