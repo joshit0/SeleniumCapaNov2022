@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions( 
 		features = {"src/test/resources/features"}, 
 		glue = {"automation.stepDefinitions"},
-		tags = "@Login_02",
+		tags = "@Login",
 		plugin = {"json:target/cucumber-reports/CucumberTestReport.json", 
 				"html:target/cucumber.html"}
 	)
